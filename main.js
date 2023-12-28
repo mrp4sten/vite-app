@@ -1,6 +1,7 @@
 import javascriptLogo from './javascript.svg'
 import { getQuote } from './quote.js'
 import './style.css'
+import './scss/main.scss'
 import viteLogo from '/vite.svg'
 
 document.querySelector('#app').innerHTML = `
