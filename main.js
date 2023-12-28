@@ -5,7 +5,7 @@ import viteLogo from '/vite.svg'
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <h1>Hello World using Vite JS!</h1>
+    <h1>Quote Fitness Generator Vite JS!</h1>
     <a href="https://vitejs.dev" target="_blank">
       <img src="${viteLogo}" class="logo" alt="Vite logo" />
     </a>

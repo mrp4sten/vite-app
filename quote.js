@@ -1,14 +1,16 @@
 import axios from "axios";
 
 export function getQuote (element) {
+  const apiUrl = process.env.API_NINJA_URL;
+  const apiKey = process.env.API_NINJA_KEY;
   const options = {
     method: 'GET',
-    url: 'https://api.api-ninjas.com/v1/quotes',
+    url: `${apiUrl}/quotes`,
     params: {
       categories: 'fitness',
     },
     headers: {
-      'X-Api-Key': 'KPNTcDHzK+HYhSeixDLp/g==5RHnsG5uLNXVZr5E',
+      'X-Api-Key': apiKey,
     }
   };
 
