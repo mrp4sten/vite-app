@@ -28,4 +28,5 @@ To build the app for production, run:
 
 ```shell
 npm run build
+npm run preview
 ```
